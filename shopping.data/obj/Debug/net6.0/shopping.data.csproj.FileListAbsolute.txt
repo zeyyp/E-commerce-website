@@ -1,0 +1,14 @@
+C:\Users\uyslz\OneDrive\Masaüstü\shopping\shopping.data\bin\Debug\net6.0\shopping.data.deps.json
+C:\Users\uyslz\OneDrive\Masaüstü\shopping\shopping.data\bin\Debug\net6.0\shopping.data.runtimeconfig.json
+C:\Users\uyslz\OneDrive\Masaüstü\shopping\shopping.data\bin\Debug\net6.0\shopping.data.dll
+C:\Users\uyslz\OneDrive\Masaüstü\shopping\shopping.data\bin\Debug\net6.0\shopping.data.pdb
+C:\Users\uyslz\OneDrive\Masaüstü\shopping\shopping.data\obj\Debug\net6.0\shopping.data.csproj.AssemblyReference.cache
+C:\Users\uyslz\OneDrive\Masaüstü\shopping\shopping.data\obj\Debug\net6.0\shopping.data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\uyslz\OneDrive\Masaüstü\shopping\shopping.data\obj\Debug\net6.0\shopping.data.AssemblyInfoInputs.cache
+C:\Users\uyslz\OneDrive\Masaüstü\shopping\shopping.data\obj\Debug\net6.0\shopping.data.AssemblyInfo.cs
+C:\Users\uyslz\OneDrive\Masaüstü\shopping\shopping.data\obj\Debug\net6.0\shopping.data.csproj.CoreCompileInputs.cache
+C:\Users\uyslz\OneDrive\Masaüstü\shopping\shopping.data\obj\Debug\net6.0\shopping.data.dll
+C:\Users\uyslz\OneDrive\Masaüstü\shopping\shopping.data\obj\Debug\net6.0\refint\shopping.data.dll
+C:\Users\uyslz\OneDrive\Masaüstü\shopping\shopping.data\obj\Debug\net6.0\shopping.data.pdb
+C:\Users\uyslz\OneDrive\Masaüstü\shopping\shopping.data\obj\Debug\net6.0\shopping.data.genruntimeconfig.cache
+C:\Users\uyslz\OneDrive\Masaüstü\shopping\shopping.data\obj\Debug\net6.0\ref\shopping.data.dll

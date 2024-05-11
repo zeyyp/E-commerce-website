@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "Hash": "IOUVMqAKbnaZ5VgWk9kmN5hM571pvncBx2vX2HryEs4=",
+  "Source": "shopping.web",
+  "BasePath": "_content/shopping.web",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "shopping.web\\wwwroot",
+      "Source": "shopping.web",
+      "ContentRoot": "C:\\Users\\uyslz\\OneDrive\\Masaüstü\\shopping\\shopping.web\\wwwroot\\",
+      "BasePath": "_content/shopping.web",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\uyslz\\OneDrive\\Masaüstü\\shopping\\shopping.web\\wwwroot\\img\\1.webp",
+      "SourceId": "shopping.web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\uyslz\\OneDrive\\Masaüstü\\shopping\\shopping.web\\wwwroot\\",
+      "BasePath": "_content/shopping.web",
+      "RelativePath": "img/1.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\1.webp"
+    },
+    {
+      "Identity": "C:\\Users\\uyslz\\OneDrive\\Masaüstü\\shopping\\shopping.web\\wwwroot\\img\\2.webp",
+      "SourceId": "shopping.web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\uyslz\\OneDrive\\Masaüstü\\shopping\\shopping.web\\wwwroot\\",
+      "BasePath": "_content/shopping.web",
+      "RelativePath": "img/2.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\2.webp"
+    },
+    {
+      "Identity": "C:\\Users\\uyslz\\OneDrive\\Masaüstü\\shopping\\shopping.web\\wwwroot\\img\\3.webp",
+      "SourceId": "shopping.web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\uyslz\\OneDrive\\Masaüstü\\shopping\\shopping.web\\wwwroot\\",
+      "BasePath": "_content/shopping.web",
+      "RelativePath": "img/3.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\3.webp"
+    }
+  ]
+}

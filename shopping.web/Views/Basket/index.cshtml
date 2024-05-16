@@ -1,0 +1,60 @@
+@model Basket
+
+<div class="container pb-5">
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Alışveris Sepeti</h2>
+            <hr />
+            <table class="table table-bordered">
+                <thead>
+                   <tr>
+                        <th>Fotoğraf</th>
+                        <th>Adet</th>
+                        <th>Adı</th>
+                        <th>Fiyatı</th>
+                        <th>Toplam fiyat</th>
+                   </tr> 
+                </thead>
+                <tbody>
+                   @foreach (var item in Model?.Items ?? Enumerable.Empty<BasketLine>())
+                    {
+                        <tr>
+                             <td><img src="~/img/@item.urun.image" width="80px"></td>
+                             <td>@item.Adet</td>
+                             <td>@item.urun.Title</td>
+                             <td>@item.urun.price</td>
+                             <td>@(item.urun.price * item.Adet)</td>
+                        </tr> 
+                    }
+                    
+
+                    
+                </tbody>
+                <tfoot>
+
+                    <tr>
+                        <td colspan="4">Total: </td>
+                        <td>
+                            @Model?.TotalPrice() ₺
+                        </td>               
+                    </tr>
+                </tfoot>
+
+
+            </table>
+            <div>
+                <a class="btn btn-warning" href="/product">Alışverişe Devam Et</a>
+                <a class="btn btn-success" asp-controller="Order" asp-action="Siparis">Siparisi Tamamla</a>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+</div>

@@ -1,0 +1,24 @@
+@model LoginView
+
+<h3>Giriş Yap</h3>
+<form asp-action="Login" method="post">
+    <div asp-validation-summary="All"></div>
+    
+    <div class="mb-3">
+        <label asp-for="Email" class="form-label">E-mail Giriniz:</label>
+        <input asp-for="Email" class="form-control">   
+        <span asp-validation-summary="Email"></span>
+
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Sifre" class="form-label">Sifre Giriniz:</label>
+        <input asp-for="Sifre" class="form-control">   
+          <span asp-validation-summary="Sifre"></span>
+    </div>
+
+    
+
+
+    <button type="submit" class="btn btn-secondary">Giriş Yap</button>
+</form>

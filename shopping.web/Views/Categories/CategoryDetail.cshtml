@@ -1,0 +1,29 @@
+
+@model List<Product>;
+
+
+
+<div class="row">
+@foreach(var urun in Model)
+    {
+       
+        <div class="col-3">
+            <div class="card" >
+            <img src="~/img/@urun.image" class="card-img-top" alt="">
+            <div class="card-body">
+            <p class="card-title">@urun.Title</p>
+            <p class="card-title">@urun.price</p>
+            
+            
+           <form asp-controller="Basket" asp-action="SepeteEkle" method="post"  >
+            <input type="hidden" asp-for="@urun.Id" name="Id">
+            <button type="submit" class="btn btn-outline-primary" >Sepete Ekle</button>
+           </form>
+          
+           
+             </div>
+            </div>
+        </div>
+        
+    }
+</div>

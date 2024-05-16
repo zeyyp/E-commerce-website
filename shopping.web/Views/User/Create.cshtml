@@ -1,0 +1,31 @@
+@model User
+
+<form asp-controller="User" asp-action="Create" method="post">
+    <div asp-validation-summary="All"></div>
+    <div class="mb-3">
+        <label asp-for="AdSoyad" class="form-label">Ad Soyad Giriniz:</label>
+        <input asp-for="AdSoyad" class="form-control">   
+        <span asp-validation-summary="AdSoyad"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Sifre" class="form-label">Sifre Giriniz:</label>
+        <input asp-for="Sifre" class="form-control">   
+          <span asp-validation-summary="Sifre"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Email" class="form-label">E-mail Giriniz:</label>
+        <input asp-for="Email" class="form-control">   
+        <span asp-validation-summary="Email"></span>
+
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="UserAdres" class="form-label">Adres Giriniz:</label>
+        <input asp-for="UserAdres" class="form-control">   
+
+    </div>
+
+    <button type="submit" class="btn btn-secondary">Kaydet</button>
+</form>

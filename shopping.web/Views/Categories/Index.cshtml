@@ -1,0 +1,11 @@
+ @model List<Category>
+
+@section Kategoriler{
+   
+ @foreach(var ktg in Model)
+    {
+           
+        <a href="Categories/CategoryDetail/@ktg.CategoryId" class="w3-bar-item w3-button">@ktg.CategoryName</a>
+      
+    }
+}
